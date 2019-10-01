@@ -21,7 +21,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import Data
-d3.csv("https://raw.githubusercontent.com/UCF-Coding-Boot-Camp/UCFLM20190409DATA/master/Homework/16-D3/Instructions/StarterCode/assets/data/data.csv?token=AJST66GQHPLAZYMYQ2RLMBS5TD56O")
+d3.csv("assets/data/data.csv")
   .then(function(censusData) {
 
     // Parse Data/Cast as numbers
